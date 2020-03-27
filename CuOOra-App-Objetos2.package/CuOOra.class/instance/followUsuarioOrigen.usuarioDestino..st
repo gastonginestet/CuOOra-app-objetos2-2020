@@ -1,0 +1,2 @@
+initialization
+followUsuarioOrigen:aUsuarioOrigen usuarioDestino:aUsuarioDestino

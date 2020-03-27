@@ -8,7 +8,8 @@
 	"instvars" : [
 		"titulo",
 		"descripcion",
-		"respuestas"
+		"respuestas",
+		"topicos"
 	],
 	"name" : "Pregunta",
 	"type" : "normal"

@@ -2,5 +2,5 @@ initialization
 initialize
 	fechaCreacion := Date today.
 	horaCreacion := Time now.
-	siguiendo := OrderedCollection new.
-	seguidores:= OrderedCollection new.
+	likes:=OrderedCollection new.
+	dislikes := OrderedCollection new.

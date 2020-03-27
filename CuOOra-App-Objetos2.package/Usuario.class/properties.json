@@ -9,7 +9,9 @@
 		"nombreUsuario",
 		"password",
 		"fechaCreacion",
-		"horaCreacion"
+		"horaCreacion",
+		"seguidores",
+		"siguiendo"
 	],
 	"name" : "Usuario",
 	"type" : "normal"

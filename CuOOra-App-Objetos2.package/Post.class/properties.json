@@ -7,6 +7,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"fechaCreacion",
+		"horaCreacion",
+		"usuario",
 		"likes",
 		"dislikes"
 	],
