@@ -1,0 +1,3 @@
+initialization
+registrarFollowUsuarioOrigen: aUsuarioOrigen usuarioDestino: aUsuarioDestino
+	aUsuarioOrigen follow: aUsuarioDestino 

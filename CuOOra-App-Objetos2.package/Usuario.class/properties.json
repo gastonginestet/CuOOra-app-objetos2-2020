@@ -11,7 +11,9 @@
 		"fechaCreacion",
 		"horaCreacion",
 		"seguidores",
-		"siguiendo"
+		"siguiendo",
+		"topicosFavoritos",
+		"preguntas"
 	],
 	"name" : "Usuario",
 	"type" : "normal"
