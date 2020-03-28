@@ -1,4 +1,4 @@
-as yet unclassified
+add/remove
 follow:aUsuario
 aUsuario agregarSeguidor: self.
 self agregarSiguiendo: aUsuario 

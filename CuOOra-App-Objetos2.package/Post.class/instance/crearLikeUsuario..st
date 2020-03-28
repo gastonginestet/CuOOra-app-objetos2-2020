@@ -1,3 +1,3 @@
-as yet unclassified
+creation
 crearLikeUsuario: aUsuario
 	self agregarLike: (LikeDislike newWithUsuario: aUsuario)
