@@ -1,3 +1,3 @@
-as yet unclassified
+creation
 agregarTopico:aTopico
 	(self topicos add:aTopico)

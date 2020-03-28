@@ -1,3 +1,3 @@
-as yet unclassified
+creation
 registrarTopicoFavoritoDeUsuario: aUsuario topico: aTopico
 	aUsuario agregarTopicoFavorito: aTopico
