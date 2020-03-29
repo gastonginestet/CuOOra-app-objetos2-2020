@@ -1,7 +1,7 @@
 instance creation
-newWithTitulo: aTitle descripcion: aDescription usuario: aUsuario topico: aTopico
+newWithTitulo: aTitle descripcion: aDescription autor: aAutor topico: aTopico
 	^ self new
 		titulo: aTitle;
 		descripcion: aDescription;
-		usuario: aUsuario;
+		autor: aAutor;
 		relacionarTopico: aTopico

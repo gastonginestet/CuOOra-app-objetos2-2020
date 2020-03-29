@@ -1,4 +1,4 @@
 instance creation
-newWithAutor: aUsuario  texto: aTexto 
+newWithAutor: aAutor  texto: aTexto 
 		^self new texto: aTexto;
-		usuario: aUsuario
+		autor: aAutor.

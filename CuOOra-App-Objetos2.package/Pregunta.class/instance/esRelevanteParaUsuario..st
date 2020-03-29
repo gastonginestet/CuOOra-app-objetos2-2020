@@ -1,4 +1,4 @@
 comparing
 esRelevanteParaUsuario: aUsuario
 	^ (self hayUnTopicoEnComunConTopicosDe: aUsuario)
-		or: (aUsuario estaSiguiendo: self usuario)
+		or: (aUsuario estaSiguiendo: self autor)

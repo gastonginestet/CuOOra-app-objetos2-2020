@@ -1,3 +1,3 @@
 accessing
 obtenerPreguntasRelevantesParaUsuario:aUsuario
-^self preguntas select:[ :pregunta | pregunta esRelevanteParaUsuario: aUsuario ]
+^self preguntas select:[ :preg | preg  esRelevanteParaUsuario: aUsuario ]

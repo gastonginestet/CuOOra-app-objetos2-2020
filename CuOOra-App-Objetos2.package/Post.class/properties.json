@@ -8,7 +8,7 @@
 	"instvars" : [
 		"fechaCreacion",
 		"horaCreacion",
-		"usuario",
+		"autor",
 		"likes",
 		"dislikes"
 	],
