@@ -1,15 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
-	"category" : "CuOOra-App-Objetos2-app",
+	"super" : "TestCase",
+	"category" : "CuOOra-App-Objetos2-tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"usuarios",
-		"topicos",
-		"preguntas"
+		"sistema"
 	],
-	"name" : "CuOOra",
+	"name" : "CuOOraTest",
 	"type" : "normal"
 }
