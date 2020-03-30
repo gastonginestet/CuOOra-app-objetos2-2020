@@ -1,4 +1,4 @@
-as yet unclassified
+calculations
 calcularPuntajeUsuario: aUsuario
 "Calcula puntaje de Preguntas y sus diferencia de likes, 
 y

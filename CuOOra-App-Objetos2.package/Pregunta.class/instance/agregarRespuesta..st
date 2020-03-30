@@ -1,3 +1,3 @@
 creation
-agregarRespuesta:aRespuesta
-self respuestas add:aRespuesta
+agregarRespuesta: aRespuesta
+	^self respuestas add: aRespuesta

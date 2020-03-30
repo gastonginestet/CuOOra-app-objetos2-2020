@@ -1,4 +1,4 @@
-as yet unclassified
+calculations
 calcularPreguntas: aUsuario
 "Obtener Cantidad de preguntas = 20 c/u
 Obtener diferencias de likes

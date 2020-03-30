@@ -1,4 +1,4 @@
-as yet unclassified
+calculations
 calcularRespuestas: aUsuario
 "Obtener Cantidad de Respuestas = 20 c/u
 Obtener diferencias de likes

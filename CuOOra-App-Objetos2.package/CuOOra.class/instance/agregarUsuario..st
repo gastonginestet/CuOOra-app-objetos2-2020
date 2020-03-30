@@ -1,3 +1,3 @@
 creation
 agregarUsuario: aUsuario
-	 self usuarios add: aUsuario
+	^self usuarios add: aUsuario

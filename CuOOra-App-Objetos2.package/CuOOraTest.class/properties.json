@@ -6,7 +6,12 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"sistema"
+		"sistema",
+		"usuarioPregunta",
+		"usuarioResponde",
+		"topico",
+		"pregunta",
+		"respuesta"
 	],
 	"name" : "CuOOraTest",
 	"type" : "normal"
