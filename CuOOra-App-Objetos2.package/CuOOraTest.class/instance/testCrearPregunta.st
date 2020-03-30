@@ -1,8 +1,7 @@
 tests
 testCrearPregunta
-	"Agregar pregunta: indicando los tópicos a las que se relaciona (al menos uno),
-un título, una descripción de la pregunta. Debe registrarse el usuario que la
-realiza y hora y fecha de creación.
-FALTA IMPLEMENTAR"
+	"Comprueba que se haya creado la pregunta."
 
-	
+	self
+		assert: (sistema buscarPregunta: 'Como se hacen los testCases?')
+		equals: pregunta
