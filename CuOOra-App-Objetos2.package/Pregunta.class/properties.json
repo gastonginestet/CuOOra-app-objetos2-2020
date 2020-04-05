@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "Post",
-	"category" : "CuOOra-App-Objetos2-app",
+	"category" : "CuOOra-App-Objetos2-model",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
