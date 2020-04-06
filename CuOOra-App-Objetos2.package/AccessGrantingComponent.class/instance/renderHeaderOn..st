@@ -1,3 +1,3 @@
 rendering
 renderHeaderOn: aCanvas
-aCanvas header: 'CuOOra'
+	aCanvas heading: 'CuOOra'

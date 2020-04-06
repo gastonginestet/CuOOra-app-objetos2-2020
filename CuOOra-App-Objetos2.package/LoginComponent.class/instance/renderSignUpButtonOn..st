@@ -1,4 +1,5 @@
 rendering
 renderSignUpButtonOn: aCanvas
-	aCanvas submitButton callback: [ self registerNewUser ];
-	with:'Registrarse'.
+	aCanvas submitButton
+		callback: [ self registerNewUser ];
+		with: 'Crea una cuenta'
