@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "gastonginestet 4/5/2020 13:29",
+	"commentStamp" : "",
 	"super" : "WAComponent",
 	"category" : "CuOOra-App-Objetos2-presentation",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"cuoora"
+		"nombreUsuario",
+		"password"
 	],
-	"name" : "CuOOraComponent",
+	"name" : "AccessGrantingComponent",
 	"type" : "normal"
 }

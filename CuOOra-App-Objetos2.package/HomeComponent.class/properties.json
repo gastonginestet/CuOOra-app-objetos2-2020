@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "WAComponent",
+	"category" : "CuOOra-App-Objetos2-presentation",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"cuoora"
+	],
+	"name" : "HomeComponent",
+	"type" : "normal"
+}

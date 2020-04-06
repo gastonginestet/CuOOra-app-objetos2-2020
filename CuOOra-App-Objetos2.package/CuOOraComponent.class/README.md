@@ -1,1 +1,0 @@
-WAAdmin register: CuOOraComponent   asApplicationAt: 'CuOOra' 

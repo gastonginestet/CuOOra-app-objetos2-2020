@@ -1,4 +1,5 @@
 add/remove
-follow:aUsuario
-aUsuario agregarSeguidor: self.
-self agregarSiguiendo: aUsuario 
+follow: aUsuario
+self siguiendo add:aUsuario .
+	(aUsuario seguidores includes: self)
+	ifFalse:[aUsuario agregarSeguidor: self]
