@@ -1,14 +1,15 @@
 {
 	"commentStamp" : "",
-	"super" : "WASession",
+	"super" : "WAComponent",
 	"category" : "CuOOra-App-Objetos2-presentation",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"user",
-		"sistema"
+		"titulo",
+		"descripcion",
+		"topico"
 	],
-	"name" : "SessionWithUser",
+	"name" : "NewPostComponent",
 	"type" : "normal"
 }

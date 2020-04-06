@@ -1,3 +1,6 @@
 rendering
 renderContentOn: aCanvas
-	aCanvas heading: 'CuOOra'
+	self renderHeaderOn: aCanvas.
+		aCanvas horizontalRule.
+	self renderBodyOn: aCanvas.
+		aCanvas horizontalRule
