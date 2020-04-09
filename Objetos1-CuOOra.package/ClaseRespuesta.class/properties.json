@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
-	"super" : "Post",
-	"category" : "CuOOra-App-Objetos2-model",
+	"super" : "ClasePost",
+	"category" : "Objetos1-CuOOra",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
@@ -9,6 +9,6 @@
 		"texto",
 		"autor"
 	],
-	"name" : "Respuesta",
+	"name" : "ClaseRespuesta",
 	"type" : "normal"
 }
