@@ -1,3 +1,3 @@
 creation
-crearNuevoUsuaro: aUsername password: aPassword
+crearNuevoUsuario: aUsername password: aPassword
 usuarios add:(ClaseUsuario crearUsuario: aUsername password: aPassword)
