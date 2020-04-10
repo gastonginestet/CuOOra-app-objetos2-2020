@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "CuOOra-App-Objetos2-test",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"usuarioJuan",
+		"usuarioMaria",
+		"usuarioPedro",
+		"usuarioMario",
+		"usuarioAgustin"
+	],
+	"name" : "TestUsuario",
+	"type" : "normal"
+}

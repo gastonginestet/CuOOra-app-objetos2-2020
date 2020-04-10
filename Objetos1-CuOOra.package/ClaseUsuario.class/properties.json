@@ -1,20 +1,20 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "CuOOra-App-Objetos2-model",
+	"category" : "Objetos1-CuOOra",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"nombreUsuario",
+		"userName",
 		"password",
-		"fechaCreacion",
-		"horaCreacion",
+		"creationDate",
+		"hourDate",
+		"questions",
 		"seguidores",
 		"siguiendo",
-		"topicosFavoritos",
-		"preguntas"
+		"topicosFavoritos"
 	],
-	"name" : "Usuario",
+	"name" : "ClaseUsuario",
 	"type" : "normal"
 }
