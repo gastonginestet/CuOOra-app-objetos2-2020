@@ -1,0 +1,30 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "Objetos1-CuOOra-modelTest",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"cuo",
+		"userPedro",
+		"userMaria",
+		"userJuan",
+		"pregA",
+		"pregB",
+		"pregC",
+		"respA",
+		"respB",
+		"respC",
+		"likeA",
+		"likeB",
+		"likeC",
+		"dislikeA",
+		"dislikeB",
+		"topicA",
+		"topicB",
+		"topicC"
+	],
+	"name" : "TestGenerico",
+	"type" : "normal"
+}

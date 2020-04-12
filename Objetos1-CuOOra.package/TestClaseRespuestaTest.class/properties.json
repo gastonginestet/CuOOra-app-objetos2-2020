@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "TestClasePostTest",
+	"category" : "Objetos1-CuOOra-modelTest",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TestClaseRespuestaTest",
+	"type" : "normal"
+}
