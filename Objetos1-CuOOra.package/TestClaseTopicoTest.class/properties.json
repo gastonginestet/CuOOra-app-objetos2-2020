@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "TestGenerico",
+	"category" : "Objetos1-CuOOra-modelTest",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TestClaseTopicoTest",
+	"type" : "normal"
+}
