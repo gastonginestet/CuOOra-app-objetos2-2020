@@ -1,3 +1,3 @@
 accessing
 cantLikes
-^likes size
+	^ self likes size

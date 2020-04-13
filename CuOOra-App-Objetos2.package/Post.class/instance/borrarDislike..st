@@ -1,3 +1,3 @@
 deleting
 borrarDislike: aUsuario
-self dislikes remove: [: l | l usuario = aUsuario   ] .
+	self dislikes remove: [ :disl | disl usuario = aUsuario ]

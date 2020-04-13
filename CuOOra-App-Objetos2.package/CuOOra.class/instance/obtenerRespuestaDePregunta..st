@@ -1,3 +1,5 @@
 accessing
-obtenerRespuestaDePregunta: aPregunta 
-^self preguntas select: [ :preg | preg buscarRespuestasOrdenada ]
+obtenerRespuestaDePregunta: aPregunta
+	^ (self obtenerTodasLasPreguntas detect: [ :preg | preg == aPregunta ])
+		obtenerRespuestasOrdenadas
+	"Retorna todas las respuestas ordenadas de mayor a menor segun likes"

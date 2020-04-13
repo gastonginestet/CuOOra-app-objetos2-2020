@@ -1,4 +1,4 @@
 accessing
 obtenerPreguntasTopico: aTopico
-	^self preguntas
-		select: [ :preg | preg estaRelacionadaConElTopico: aTopico ]
+	^ usuarios
+		flatCollect: [ :user | user obtenerPreguntasTopico: aTopico ]

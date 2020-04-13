@@ -1,3 +1,4 @@
-accessing
-relacionarTopico:aTopico
-topicos add:aTopico
+as yet unclassified
+relacionarTopico: aTopico
+	 self topicos add: aTopico.
+	
