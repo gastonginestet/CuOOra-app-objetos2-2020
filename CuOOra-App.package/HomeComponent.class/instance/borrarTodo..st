@@ -1,3 +1,3 @@
 rendering
-borrarTodo:each 
-each borrarLikes .each borrarDislikes .
+borrarTodo: each
+	each borrarLikesDislikes 

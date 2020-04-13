@@ -9,7 +9,7 @@ renderPostContentOn: aCanvas element: each
 		break;
 		text: 'Realizada por  ';
 		space;
-		strong: each autor.
+		strong: each nombreAutor .
 	aCanvas
 		text: ' | ';
 		text: each sizeRespuestas;

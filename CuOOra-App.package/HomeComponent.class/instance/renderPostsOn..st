@@ -1,14 +1,13 @@
 rendering
 renderPostsOn: aCanvas
-	self session sistema preguntas
+	(self sistema obtenerTodasLasPreguntas )
 		ifNil: [ aCanvas text: 'No hay publicaciones' ]
 		ifNotNil: [ aCanvas
-				unorderedList: [ self session sistema preguntas
+				unorderedList: [ (self sistema obtenerTodasLasPreguntas )
 						do: [ :each | 
-							
 							aCanvas
-								listItem: [aCanvas anchor
-								callback: [ self session post: each.
-									self call: PostComponent new ];
-								with: [ aCanvas text: each titulo ]. 
+								listItem: [ aCanvas anchor
+										callback: [ self session post: each.
+											self call: PostComponent new ];
+										with: [ aCanvas text: each titulo ].
 									self renderPostContentOn: aCanvas element: each ] ] ] ]

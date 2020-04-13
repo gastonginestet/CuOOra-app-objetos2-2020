@@ -1,0 +1,3 @@
+accessing
+nombreAutor
+	^ autor nombreUsuario
