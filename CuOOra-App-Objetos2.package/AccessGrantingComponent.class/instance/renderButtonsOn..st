@@ -1,3 +1,0 @@
-accessing
-renderButtonsOn: aCanvas
-	self subclassResponsibility
