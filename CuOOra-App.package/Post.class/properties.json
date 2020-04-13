@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "CuOOra-App-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"fechaCreacion",
+		"horaCreacion",
+		"likes",
+		"dislikes",
+		"autor"
+	],
+	"name" : "Post",
+	"type" : "normal"
+}

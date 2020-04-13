@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "WAComponent",
+	"category" : "CuOOra-App-presentation",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"nombreUsuario",
+		"password"
+	],
+	"name" : "AccessGrantingComponent",
+	"type" : "normal"
+}

@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "CuOOra-App-model",
+	"classinstvars" : [
+		"soleInstance"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"usuarios",
+		"topicos"
+	],
+	"name" : "CuOOra",
+	"type" : "normal"
+}

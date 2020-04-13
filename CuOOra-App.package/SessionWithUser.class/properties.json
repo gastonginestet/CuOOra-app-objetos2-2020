@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "WASession",
+	"category" : "CuOOra-App-presentation",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"user",
+		"sistema",
+		"post"
+	],
+	"name" : "SessionWithUser",
+	"type" : "normal"
+}

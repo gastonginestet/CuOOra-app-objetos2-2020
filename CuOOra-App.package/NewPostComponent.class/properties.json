@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "WAComponent",
+	"category" : "CuOOra-App-presentation",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"titulo",
+		"descripcion",
+		"topico"
+	],
+	"name" : "NewPostComponent",
+	"type" : "normal"
+}
