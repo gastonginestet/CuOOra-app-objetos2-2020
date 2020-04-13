@@ -1,6 +1,12 @@
 calculations
 calcularPuntajeUsuario: aUsuario
-"Calcula puntaje de Preguntas y sus diferencia de likes, 
+	"Calcula puntaje de Preguntas y sus diferencia de likes, 
 y
 puntaje de Respuestas y sus diferencias de likes"
-^ (self calcularPreguntas: aUsuario) + (self calcularRespuestas: aUsuario)
+
+	| colAux |
+	colAux := Set new.
+	colAux := (self obtenerTodasLasPreguntas
+		, (self obtenerPreguntasDelUsuario: aUsuario)) asSet.
+	^ (self obtenerPreguntasDelUsuario: aUsuario) size * 20
+		+ (colAux size * 50)

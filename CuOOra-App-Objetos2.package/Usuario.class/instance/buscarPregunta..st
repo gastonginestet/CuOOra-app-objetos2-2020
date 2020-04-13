@@ -1,4 +1,4 @@
 add/remove
 buscarPregunta: aPregunta
-	| questions |
-	^ questions detect: [ :ques | ques == aPregunta ]
+	
+	^ self preguntas detect: [ :ques | ques == aPregunta ]

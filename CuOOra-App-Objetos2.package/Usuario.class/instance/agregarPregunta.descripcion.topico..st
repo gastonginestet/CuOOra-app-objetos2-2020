@@ -1,10 +1,9 @@
-as yet unclassified
+accessing
 agregarPregunta: aTitulo descripcion: aDescripcion topico: aTopico
-	| questions |
-	questions
+	^self preguntas
 		add:
-			(ClasePregunta
-				crearPreguntaTitulo: aTitulo
+			(Pregunta
+				newWithTitulo: aTitulo
 				descripcion: aDescripcion
-				topico: aTopico).
-	^ questions last
+				autor: self
+				topico: aTopico)

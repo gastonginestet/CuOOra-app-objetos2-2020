@@ -5,3 +5,4 @@ initialize
 	siguiendo := OrderedCollection new.
 	seguidores := OrderedCollection new.
 	topicosFavoritos := OrderedCollection new.
+	preguntas :=OrderedCollection new.

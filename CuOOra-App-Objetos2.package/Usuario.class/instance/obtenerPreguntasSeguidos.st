@@ -1,3 +1,3 @@
 accessing
 obtenerPreguntasSeguidos
-	^ siguiendo flatCollect: [ :user | user questions ]
+	^ self siguiendo flatCollect: [ :user | user questions ]
