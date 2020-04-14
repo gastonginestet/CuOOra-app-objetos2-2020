@@ -1,6 +1,7 @@
 rendering
 renderHeaderOn: aCanvas
-		aCanvas heading
-		level: 1;
-		with: 'CuOOra'.
-		self renderLogoutButtonOn: aCanvas.
+	aCanvas
+		paragraph: [ aCanvas div
+				style: 'display:flex; justify-content:space-between; align-items:center';
+				with: [ aCanvas heading: 'CuOOra'.
+					aCanvas div: [ self renderLogoutButtonOn: aCanvas ] ] ]

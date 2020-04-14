@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "WAComponent",
+	"category" : "CuOOra-App-presentation",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"home",
+		"user"
+	],
+	"name" : "UserComponent",
+	"type" : "normal"
+}

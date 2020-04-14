@@ -1,0 +1,3 @@
+accessing
+cantSiguiendo
+	^ siguiendo size

@@ -1,9 +1,9 @@
 rendering
-renderPostsOn: aCanvas
-	(self sistema obtenerTodasLasPreguntas )
+renderPostsOn: aCanvas with: aPostCol
+	aPostCol
 		ifNil: [ aCanvas text: 'No hay publicaciones' ]
 		ifNotNil: [ aCanvas
-				unorderedList: [ (self sistema obtenerTodasLasPreguntas )
+				unorderedList: [ aPostCol 
 						do: [ :each | 
 							aCanvas
 								listItem: [ aCanvas anchor

@@ -8,4 +8,7 @@ renderContentOn: aCanvas
 		form: [ self renderFormContentOn: aCanvas.
 			aCanvas submitButton
 				callback: [ self post ];
-				with: 'Post' ]
+				with: 'Post' .
+					aCanvas submitButton
+		callback: [ self cancel ];
+		with: 'Cancelar'].

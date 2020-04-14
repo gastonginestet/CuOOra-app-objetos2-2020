@@ -3,7 +3,7 @@ renderBodyOn: aCanvas
 	aCanvas heading
 		level: 2;
 		with: 'Ultimas preguntas'.
-		self renderPostsOn: aCanvas.
+	self renderPostsOn: aCanvas with:self sistema obtenerTodasLasPreguntas.
 	aCanvas anchor
 		callback: [ self createNewPost ];
 		with: [ aCanvas button: 'Crear Pregunta' ]

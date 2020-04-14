@@ -9,7 +9,7 @@ renderContentOn: aCanvas
 			aCanvas break.
 			aCanvas submitButton
 				callback: [ self reply ];
-				with: 'Guardar' ].
-	aCanvas submitButton
-		callback: [ self call: HomeComponent new.];
-		with: 'Cancelar'
+				with: 'Guardar'.
+			aCanvas submitButton
+				callback: [ self cancel ];
+				with: 'Cancelar' ]
