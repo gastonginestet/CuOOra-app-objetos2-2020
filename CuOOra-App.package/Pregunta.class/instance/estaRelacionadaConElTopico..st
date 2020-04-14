@@ -1,3 +1,3 @@
 comparing
 estaRelacionadaConElTopico: aTopico
-self topicos anySatisfy: [ :topico | topico = aTopico  ]
+^ self topicos anySatisfy: [ :topico | topico = aTopico  ]

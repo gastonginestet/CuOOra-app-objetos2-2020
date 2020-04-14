@@ -1,5 +1,5 @@
 deleting
-buscarRespuestaAutor: aUser
+NObuscarRespuesta: aUser
 	"Dado el usuario que responde retorna el objeto de la coleccion"
 
 	^ self respuestas

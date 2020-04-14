@@ -1,3 +1,4 @@
 adding
-agregarLike:aLike
-	self likes add: aLike
+agregarLike: aLike
+	likes add: aLike.
+	^ likes last

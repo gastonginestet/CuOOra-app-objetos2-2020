@@ -1,3 +1,3 @@
 as yet unclassified
-buscarRespuestasUsuario: aUsuario 
+NObuscarRespuestasUsuario: aUsuario 
 ^ self respuestas select: [ : resp | resp autor = aUsuario ].

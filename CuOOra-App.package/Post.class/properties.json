@@ -9,8 +9,7 @@
 		"fechaCreacion",
 		"horaCreacion",
 		"likes",
-		"dislikes",
-		"autor"
+		"dislikes"
 	],
 	"name" : "Post",
 	"type" : "normal"

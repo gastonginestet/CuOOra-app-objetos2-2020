@@ -1,24 +1,22 @@
 initialization
 setUp
+|topicCol|
+super setUp.
+topicCol:= OrderedCollection new.
 	sistema := CuOOra new.
-	usuarioPregunta := sistema
-		crearUsuario: 'juanperez-1997'
-		password: 'juanvamoselpincha'.
-	topico := sistema
-		crearTopicoNombre: 'Pharo'
-		descripcion:
-			'Se trata todo sobre Pharo, de su libro "Pharo por Ejemplo" , bugs y otras muchas cosas mas. Solo para valientes... '.
-	pregunta := sistema
-		crearPreguntaTitulo: 'Como se hacen los testCases?'
-		descripcion:
-			'Quiero aprobar el parcial de Objetos1 pero no se como hacer testCases? Alguien tiene material de referencia?'
-		topico: topico
-		autor: usuarioPregunta.
-	usuarioResponde := sistema
-		crearUsuario: 'pedro-rodriguez'
-		password: 'pedrito1234'.
-	respuesta := sistema
-		crearRespuestaPregunta: pregunta
-		texto:
-			'Hola! En "Pharo por Ejemplo" en el capitulo 7 trata sobre el tema. Saludos! '
-		autor: usuarioResponde
+	userPedro:= sistema crearUsuario: 'pedro@cuoora.com' password: 'pedro@cuoora.com'.
+	userDiego:= sistema crearUsuario: 'diego@cuoora.com' password: 'diego@cuoora.com'.
+	userJuan:= sistema crearUsuario: 'juan@cuoora.com' password: 'juan@cuoora.com'.
+	userPedro follow: userJuan.
+	userJuan follow: userDiego. 
+	topicA:= sistema crearTopicoNombre: 'OO1' descripcion: '001'.
+	topicB:= sistema crearTopicoNombre: 'Test de Unidad' descripcion: 'Test de Unidad'.
+	topicC:= sistema crearTopicoNombre: 'Smalltalk' descripcion: 'Smalltalk'.
+	topicCol add: topicA; add: topicB.
+	pregA:= userPedro agregarPregunta: '¿Para qué sirve el método SetUp?' descripcion: '¿Para qué sirve el método SetUp?'  topico: topicCol.
+	"respA:= sistema crearRespuestaPregunta: pregA texto: 'Sirve para instanciar los objetos que son evaluados por el test en un único método y que se ejecute siempre antes de cada test.' autor: userDiego."
+	"pregB:=
+
+	respB:=
+	followA:=
+	followB:="

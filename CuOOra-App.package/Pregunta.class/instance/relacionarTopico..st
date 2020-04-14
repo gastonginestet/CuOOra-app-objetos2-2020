@@ -1,4 +1,5 @@
 as yet unclassified
 relacionarTopico: aTopico
-	 self topicos add: aTopico.
+^ aTopico collect: [ :topic | topicos add: topic ].
+
 	
