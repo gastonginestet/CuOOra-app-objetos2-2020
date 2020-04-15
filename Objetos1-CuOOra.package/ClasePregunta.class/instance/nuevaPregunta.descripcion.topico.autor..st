@@ -1,6 +1,7 @@
 accessing
-nuevaPregunta: aTitulo descripcion: aDescripcion topico: aTopico
+nuevaPregunta: aTitulo descripcion: aDescripcion topico: aTopico autor: aUser
 self initialize.
+autor:= aUser.
 titulo:= aTitulo.
 descripcion:= aDescripcion.
 respuestas:= OrderedCollection new.

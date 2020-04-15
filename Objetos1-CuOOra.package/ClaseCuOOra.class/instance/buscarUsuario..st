@@ -1,3 +1,3 @@
 accessing
-buscarUsuario: aUsuario
-^ usuarios detect: [ : user | user == aUsuario ].
+buscarUsuario: aName
+^ usuarios detect: [ : user | user nombreUsuario  == aName ].

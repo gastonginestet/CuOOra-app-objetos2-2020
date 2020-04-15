@@ -1,3 +1,3 @@
 deleting
 buscarPregunta: aPregunta
-^ questions detect: [ :ques | ques == aPregunta ].
+^ preguntas detect: [ :ques | ques == aPregunta ].

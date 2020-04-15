@@ -1,3 +1,3 @@
 creation
 registrarTopicoFavorito: aUsuario topico: aTopico
-	aUsuario agregarTopicoFavorito: aTopico
+	^ aUsuario agregarTopicoFavorito: aTopico

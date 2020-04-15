@@ -1,3 +1,3 @@
 as yet unclassified
 obtenerPreguntasTopico: aTopico
-^ questions collect: [ : quest | quest obtenerTopico:  aTopico ].
+^ self preguntas collect: [ : quest | quest obtenerTopico:  aTopico ].

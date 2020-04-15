@@ -6,11 +6,11 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"userName",
+		"nombreUsuario",
 		"password",
-		"creationDate",
-		"hourDate",
-		"questions",
+		"fechaCreacion",
+		"horaCreacion",
+		"preguntas",
 		"seguidores",
 		"siguiendo",
 		"topicosFavoritos"

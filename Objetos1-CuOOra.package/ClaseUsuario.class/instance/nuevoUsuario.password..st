@@ -1,10 +1,10 @@
 as yet unclassified
-nuevoUsuario: username password: aPassword
-userName:= username.
+nuevoUsuario: aNombre password: aPassword
+nombreUsuario:= aNombre.
 password:= aPassword.
-creationDate:= Date today .
-hourDate:= Time now.
-questions:= OrderedCollection new.
+fechaCreacion:= Date today .
+horaCreacion:= Time now.
+preguntas:= OrderedCollection new.
 topicosFavoritos:= OrderedCollection new.
 seguidores:= OrderedCollection new.
 siguiendo:= OrderedCollection new.

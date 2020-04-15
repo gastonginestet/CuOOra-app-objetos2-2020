@@ -1,3 +1,3 @@
 as yet unclassified
 obtenerTodasPreguntas
-^ usuarios flatCollect:  [ : user | user questions]
+^ usuarios flatCollect:  [ : user | user preguntas]

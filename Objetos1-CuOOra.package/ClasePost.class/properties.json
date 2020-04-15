@@ -9,7 +9,8 @@
 		"fechaCreacion",
 		"horaCreacion",
 		"likes",
-		"dislikes"
+		"dislikes",
+		"autor"
 	],
 	"name" : "ClasePost",
 	"type" : "normal"

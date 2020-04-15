@@ -1,4 +1,4 @@
 add/remove
 agregarSeguidor: aUsuario
-seguidores add: aUsuario .
-^ seguidores last.
+	seguidores add: aUsuario.
+	^ seguidores last

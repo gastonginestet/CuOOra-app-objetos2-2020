@@ -1,3 +1,3 @@
 as yet unclassified
-crearLikeDislike: aUsuario
+newWithUsuario: aUsuario
 ^ (self new ) nuevoLikeDislike: aUsuario.
