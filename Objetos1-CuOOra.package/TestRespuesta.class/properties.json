@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "Objetos1-CuOOra-model-Test",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"sistema",
+		"userDiego"
+	],
+	"name" : "TestRespuesta",
+	"type" : "normal"
+}
