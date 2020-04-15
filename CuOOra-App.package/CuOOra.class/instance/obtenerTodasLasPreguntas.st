@@ -1,3 +1,3 @@
-as yet unclassified
+accesing
 obtenerTodasLasPreguntas
 	^ usuarios flatCollect: [ :user | user preguntas ]

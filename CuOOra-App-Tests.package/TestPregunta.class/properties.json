@@ -1,15 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "TestCase",
+	"super" : "TestPost",
 	"category" : "CuOOra-App-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"userPedro",
-		"userDiego",
-		"userJuan"
-	],
-	"name" : "TestUsuario",
+	"instvars" : [ ],
+	"name" : "TestPregunta",
 	"type" : "normal"
 }

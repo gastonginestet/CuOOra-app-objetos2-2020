@@ -1,3 +1,4 @@
 creation
 agregarRespuesta: aRespuesta
-	^self respuestas add: aRespuesta
+	respuestas add: aRespuesta.
+	^ respuestas last

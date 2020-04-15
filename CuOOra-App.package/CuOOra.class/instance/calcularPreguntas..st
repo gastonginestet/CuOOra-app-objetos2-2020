@@ -4,6 +4,6 @@ calcularPreguntas: aUsuario
 Obtener diferencias de likes
 "
 |cantPregs cantLikes|
-cantPregs:= (self obtenerPreguntasDelUsuario: aUsuario).
+cantPregs:= (aUsuario obtenerPreguntasDelUsuario: aUsuario).
 cantLikes:= (cantPregs inject: 0 into: [:sum :p | sum + p ]).
 ^ (((cantPregs size) * 20) + cantLikes )

@@ -7,11 +7,18 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"sistema",
-		"usuarioPregunta",
-		"usuarioResponde",
-		"topico",
-		"pregunta",
-		"respuesta"
+		"userPedro",
+		"userDiego",
+		"userJuan",
+		"pregA",
+		"pregB",
+		"respA",
+		"respB",
+		"followA",
+		"followB",
+		"topicA",
+		"topicB",
+		"topicC"
 	],
 	"name" : "CuOOraTest",
 	"type" : "normal"

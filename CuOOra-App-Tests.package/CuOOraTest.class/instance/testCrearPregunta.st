@@ -1,7 +1,5 @@
 tests
 testCrearPregunta
-	"Comprueba que se haya creado la pregunta."
+"pregA:= userPedro agregarPregunta: '¿Para qué sirve el método SetUp?' descripcion: '¿Para qué sirve el método SetUp?'  topico: topicA,topicB."
 
-	self
-		assert: (sistema buscarPregunta: 'Como se hacen los testCases?')
-		equals: pregunta
+self assert: (userPedro preguntas includes: pregA).
