@@ -1,4 +1,5 @@
 add/remove
-buscarPregunta: aPregunta
-	
-	^ self preguntas detect: [ :ques | ques == aPregunta ]
+buscarPregunta: aTitle
+	^ self preguntas
+		detect: [ :ques | ques titulo = aTitle ]
+		ifNone: nil
