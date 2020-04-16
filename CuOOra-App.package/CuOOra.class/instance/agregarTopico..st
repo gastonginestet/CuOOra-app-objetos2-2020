@@ -1,4 +1,4 @@
 as yet unclassified
-agregarTopico: aTopic
-	topicos add: aTopic.
-^ topicos last.
+agregarTopico: aTopico
+	topicos add: aTopico.
+	^ topicos last

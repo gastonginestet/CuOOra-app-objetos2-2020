@@ -1,7 +1,8 @@
 rendering
-renderPostTopicosOn: aCanvas element: each
+renderPostTopicosOn: aCanvas element: question
 	"Revisar esto"
 
-	each topicos
+	question topicos
 		ifNil: [ aCanvas text: 'No hay topicos.' ]
-		ifNotNil: [ each topicos do: [ :ele | aCanvas text: ele ] ]
+		ifNotNil: [ question topicos
+				do: [ :topico | aCanvas text: ' | ' , topico nombre ,' | '] ]

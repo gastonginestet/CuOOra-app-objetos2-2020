@@ -1,3 +1,4 @@
 deleting
-borrarLike: aUsuario
-^ likes remove: [: l | l usuario = aUsuario   ] .
+borrarLike: aLike
+	^ self likes
+		remove: aLike

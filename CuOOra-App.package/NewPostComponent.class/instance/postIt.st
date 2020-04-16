@@ -1,7 +1,7 @@
 as yet unclassified
 postIt
 	self session user
-		agregarPregunta: titulo
-		descripcion: descripcion
-		topicos: (topicos substrings: ',').
+		agregarPregunta: self titulo
+		descripcion: self descripcion
+		topicos: self topicos.
 	self answer

@@ -1,9 +1,9 @@
 rendering
 renderContentOn: aCanvas
-	self renderMyHeader:aCanvas .
+	self renderMyHeader: aCanvas.
 	aCanvas horizontalRule.
 	aCanvas heading level2 with: post titulo.
-	self renderPostContentOn: aCanvas element: post.
+	self renderPostContentOn: aCanvas element:self  post.
 	self renderRepliesOn: aCanvas.
 	aCanvas anchor
 		callback: [ self call: (NewReplyComponent newWithPost: self post) ];

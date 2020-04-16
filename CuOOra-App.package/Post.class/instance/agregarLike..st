@@ -1,4 +1,4 @@
 adding
-agregarLike: aLike
-likes add: aLike.
-^ likes last.
+agregarLike: aUsuario
+	(self hayUnLike:aUsuario)  
+	ifNil:[self likes add: (LikeDislike newWithUsuario: aUsuario).]

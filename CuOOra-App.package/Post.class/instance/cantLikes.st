@@ -1,3 +1,3 @@
 as yet unclassified
 cantLikes
-^ likes size.
+	^ self likes size

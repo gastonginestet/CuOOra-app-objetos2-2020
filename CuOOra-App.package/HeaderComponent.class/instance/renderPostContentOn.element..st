@@ -4,7 +4,7 @@ renderPostContentOn: aCanvas element: each
 	aCanvas
 		text: 'Topicos:  ';
 		space.
-	self renderPostTopicosOn: aCanvas element: each.
+	self renderPostTopicosOn: aCanvas element: each .
 	aCanvas
 		break;
 		text: 'Realizada por  ';
