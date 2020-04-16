@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "CuOOra-App-Tests-modelTest",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"topicA",
+		"topicB",
+		"pregA",
+		"respADiego",
+		"respBDiego",
+		"userDiego",
+		"userPedro",
+		"sistema"
+	],
+	"name" : "TestPregunta",
+	"type" : "normal"
+}
