@@ -1,5 +1,5 @@
 initialization
 initialize
 	super initialize.
-	post := self session post.
-	home := HomeComponent new.
+	myHeader := HeaderComponent new.
+	home := HomeComponent new

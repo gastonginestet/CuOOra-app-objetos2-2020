@@ -1,3 +1,4 @@
 initialization
 initialize
-home:=HomeComponent new.
+myHeader :=HeaderComponent new.
+	home := HomeComponent new

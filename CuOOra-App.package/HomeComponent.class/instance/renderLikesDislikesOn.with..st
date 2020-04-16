@@ -7,13 +7,13 @@ renderLikesDislikesOn: aCanvas with: post
 		text: '  dislikes'.
 	aCanvas break.
 	aCanvas anchor
-		callback: [ self giveLike: post by: self session user ];
+		callback: [ post crearLikeUsuario: self session user ];
 		with: [ aCanvas text: 'like' ].
 	aCanvas text: '    |    '.
 	aCanvas anchor
-		callback: [ self giveDislike: post by: self session user ];
+		callback: [ post crearDislikeUsuario: self session user ];
 		with: [ aCanvas text: 'dislike' ].
 	aCanvas space.
 	aCanvas anchor
-		callback: [ self borrarTodo: post ];
+		callback: [ post borrarLikesDislikes  ];
 		with: [ aCanvas text: 'No funciona los likes,borrame todo' ]

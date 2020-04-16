@@ -1,5 +1,5 @@
 rendering
-renderHeaderOn: aCanvas
+renderContentOn: aCanvas
 	aCanvas
 		paragraph: [ aCanvas div
 				style: 'display:flex; justify-content:space-between; align-items:center';

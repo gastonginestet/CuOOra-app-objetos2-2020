@@ -1,6 +1,6 @@
 rendering
 renderContentOn: aCanvas
-	self renderHeaderOn: aCanvas.
-		aCanvas horizontalRule.
+	aCanvas render:myHeader.
+	aCanvas horizontalRule.
 	self renderBodyOn: aCanvas.
-		aCanvas horizontalRule
+	aCanvas horizontalRule

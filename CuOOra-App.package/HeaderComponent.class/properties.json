@@ -6,11 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"texto",
-		"post",
-		"myHeader",
-		"home"
+		"user"
 	],
-	"name" : "NewReplyComponent",
+	"name" : "HeaderComponent",
 	"type" : "normal"
 }

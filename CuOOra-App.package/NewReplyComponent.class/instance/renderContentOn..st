@@ -1,14 +1,14 @@
 rendering
 renderContentOn: aCanvas
-	home renderHeaderOn: aCanvas.
+	aCanvas render: myHeader.
 	aCanvas horizontalRule.
-	aCanvas heading level3 with: post titulo.
-	home renderPostContentOn: aCanvas element: post.
+	aCanvas heading level3 with: self post titulo.
+	home renderPostContentOn: aCanvas element: self post.
 	aCanvas
-		form: [ self renderReplyFormContentOn: aCanvas.
+		form: [ self renderReplyFormOn: aCanvas.
 			aCanvas break.
 			aCanvas submitButton
-				callback: [ self reply ];
+				callback: [ self replyIt ];
 				with: 'Guardar'.
 			aCanvas submitButton
 				callback: [ self cancel ];
