@@ -6,15 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"nombreUsuario",
-		"password",
-		"fechaCreacion",
-		"horaCreacion",
-		"preguntas",
-		"seguidores",
-		"siguiendo",
-		"topicosFavoritos"
+		"usuarios",
+		"topicos"
 	],
-	"name" : "ClaseUsuario",
+	"name" : "CuOOra",
 	"type" : "normal"
 }

@@ -10,6 +10,6 @@
 		"horaCreacion",
 		"usuario"
 	],
-	"name" : "ClaseLikeDislike",
+	"name" : "LikeDislike",
 	"type" : "normal"
 }

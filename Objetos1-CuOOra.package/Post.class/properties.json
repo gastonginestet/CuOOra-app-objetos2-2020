@@ -12,6 +12,6 @@
 		"dislikes",
 		"autor"
 	],
-	"name" : "ClasePost",
+	"name" : "Post",
 	"type" : "normal"
 }

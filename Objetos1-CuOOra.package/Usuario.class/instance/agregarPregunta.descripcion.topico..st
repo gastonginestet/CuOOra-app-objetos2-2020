@@ -2,7 +2,7 @@ as yet unclassified
 agregarPregunta: aTitulo descripcion: aDescripcion topico: aTopico
 	preguntas
 		add:
-			(ClasePregunta
+			(Pregunta
 				newWithTitulo: aTitulo
 				descripcion: aDescripcion
 				topico: aTopico

@@ -3,7 +3,7 @@ setUp
 |topicCol|
 	super setUp.
 	topicCol:= OrderedCollection new.
-	sistema := ClaseCuOOra new.
+	sistema := CuOOra new.
 	"Usuarios"
 	userDiego := sistema
 		crearNuevoUsuario: 'diego@cuoora.com'

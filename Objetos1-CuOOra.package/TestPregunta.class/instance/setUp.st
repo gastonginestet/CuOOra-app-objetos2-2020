@@ -2,7 +2,7 @@ running
 setUp
 |topicCol|
 	super setUp.
-	sistema:= ClaseCuOOra new.
+	sistema:= CuOOra new.
 	topicCol:= OrderedCollection new.
 	userDiego := sistema
 		crearNuevoUsuario: 'diego@cuoora.com'

@@ -1,7 +1,7 @@
 running
 setUp
 super setUp.
-sistema:= ClaseCuOOra new.
+sistema:= CuOOra new.
 	userDiego := sistema
 		crearNuevoUsuario: 'diego@cuoora.com'
 		password: 'diego@cuoora.com'.

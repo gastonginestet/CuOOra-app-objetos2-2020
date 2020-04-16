@@ -1,16 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "ClasePost",
+	"super" : "Object",
 	"category" : "Objetos1-CuOOra-model",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"titulo",
-		"descripcion",
-		"respuestas",
-		"topicos"
+		"nombre",
+		"descripcion"
 	],
-	"name" : "ClasePregunta",
+	"name" : "Topico",
 	"type" : "normal"
 }
