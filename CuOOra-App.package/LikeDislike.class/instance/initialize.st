@@ -1,0 +1,5 @@
+private-creation
+initialize
+	fechaCreacion := Date today.
+	horaCreacion := Time now.
+	

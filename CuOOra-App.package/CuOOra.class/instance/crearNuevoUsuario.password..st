@@ -1,5 +1,5 @@
 creation
 crearNuevoUsuario: aUsername password: aPassword
 	self
-		agregarUsuario: (Usuario crearUsuario: aUsername password: aPassword).
+		agregarUsuario: (Usuario newWithName: aUsername password: aPassword).
 	^ usuarios last

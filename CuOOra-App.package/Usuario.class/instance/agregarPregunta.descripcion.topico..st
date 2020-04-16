@@ -5,6 +5,6 @@ agregarPregunta: aTitulo descripcion: aDescripcion topico: aTopico
 			(Pregunta
 				newWithTitulo: aTitulo
 				descripcion: aDescripcion
-				topico: aTopico
+				topicos: aTopico
 				autor: self).
 	^ preguntas last
