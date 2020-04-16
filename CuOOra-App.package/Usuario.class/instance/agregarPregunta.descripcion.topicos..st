@@ -1,5 +1,5 @@
 as yet unclassified
-agregarPregunta: aTitulo descripcion: aDescripcion topico: aTopico
+agregarPregunta: aTitulo descripcion: aDescripcion topicos: aTopico
 	preguntas
 		add:
 			(Pregunta

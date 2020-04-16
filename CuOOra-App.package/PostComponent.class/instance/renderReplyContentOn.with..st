@@ -4,5 +4,5 @@ renderReplyContentOn: aCanvas with: element
 	aCanvas break.
 	aCanvas text: element texto.
 	aCanvas break.
-	home renderLikesDislikesOn: aCanvas with: element.
+self renderLikesDislikesOn: aCanvas with: element.
 	aCanvas break

@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "WAComponent",
+	"super" : "HeaderComponent",
 	"category" : "CuOOra-App-presentation",
 	"classinstvars" : [ ],
 	"pools" : [ ],
@@ -8,7 +8,6 @@
 	"instvars" : [
 		"titulo",
 		"descripcion",
-		"myHeader",
 		"topicos"
 	],
 	"name" : "NewPostComponent",

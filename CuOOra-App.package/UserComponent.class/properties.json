@@ -1,15 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "WAComponent",
+	"super" : "HeaderComponent",
 	"category" : "CuOOra-App-presentation",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"home",
-		"user",
-		"myHeader"
-	],
+	"instvars" : [ ],
 	"name" : "UserComponent",
 	"type" : "normal"
 }

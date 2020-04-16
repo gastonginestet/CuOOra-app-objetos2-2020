@@ -1,6 +1,7 @@
 rendering
 renderContentOn: aCanvas
-	aCanvas render: myHeader.
+	
+	self renderMyHeader: aCanvas.
 	aCanvas horizontalRule.
 	aCanvas heading level3 with: 'Nueva pregunta'.
 	aCanvas horizontalRule.

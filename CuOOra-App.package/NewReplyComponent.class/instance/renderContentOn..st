@@ -1,9 +1,9 @@
 rendering
 renderContentOn: aCanvas
-	aCanvas render: myHeader.
+	self renderMyHeader: aCanvas.
 	aCanvas horizontalRule.
-	aCanvas heading level3 with: self post titulo.
-	home renderPostContentOn: aCanvas element: self post.
+	aCanvas heading level3 with: (self showTitle).
+	self renderPostContentOn: aCanvas element: self post.
 	aCanvas
 		form: [ self renderReplyFormOn: aCanvas.
 			aCanvas break.

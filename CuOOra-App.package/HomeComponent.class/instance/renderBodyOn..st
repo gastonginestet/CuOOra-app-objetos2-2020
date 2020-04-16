@@ -5,7 +5,7 @@ renderBodyOn: aCanvas
 		with: 'Ultimas preguntas'.
 	self
 		renderPostsOn: aCanvas
-		with: self sistema obtenerTodasLasPreguntas "(self sistema obtenerPreguntasRelevantesParaUsuario: self user)".
+		with: self sistema obtenerTodasPreguntas.	"(self sistema obtenerPreguntasRelevantesParaUsuario: self user)"
 	aCanvas anchor
 		callback: [ self createNewPost ];
 		with: [ aCanvas button: 'Crear Pregunta' ]

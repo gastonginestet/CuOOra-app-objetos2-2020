@@ -1,2 +1,4 @@
 initialization
-cancel self texto: nil.self answer .
+cancel
+	self texto: nil.
+	self answer
