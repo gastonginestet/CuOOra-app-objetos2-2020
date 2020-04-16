@@ -8,7 +8,8 @@
 	"instvars" : [
 		"titulo",
 		"descripcion",
-		"topico"
+		"myHeader",
+		"topicos"
 	],
 	"name" : "NewPostComponent",
 	"type" : "normal"

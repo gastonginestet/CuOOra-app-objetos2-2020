@@ -1,5 +1,5 @@
 initialization
-renderReplyFormContentOn: aCanvas
+renderReplyFormOn: aCanvas
 	aCanvas text: 'Responder: '.
 	aCanvas break.
 	(aCanvas textArea on: #texto of: self)

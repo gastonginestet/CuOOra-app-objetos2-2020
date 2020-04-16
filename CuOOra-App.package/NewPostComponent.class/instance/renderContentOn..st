@@ -1,14 +1,14 @@
 rendering
 renderContentOn: aCanvas
-	HomeComponent new renderHeaderOn: aCanvas.
+	aCanvas render: myHeader.
 	aCanvas horizontalRule.
-	aCanvas heading level3 with: 'Crear un nuevo post'.
+	aCanvas heading level3 with: 'Nueva pregunta'.
 	aCanvas horizontalRule.
 	aCanvas
 		form: [ self renderFormContentOn: aCanvas.
 			aCanvas submitButton
-				callback: [ self post ];
-				with: 'Post' .
-					aCanvas submitButton
-		callback: [ self cancel ];
-		with: 'Cancelar'].
+				callback: [ self postIt ];
+				with: 'Publicar'.
+			aCanvas submitButton
+				callback: [ self cancel ];
+				with: 'Cancelar' ]

@@ -6,9 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"user",
-		"sistema",
-		"post"
+		"user"
 	],
 	"name" : "SessionWithUser",
 	"type" : "normal"

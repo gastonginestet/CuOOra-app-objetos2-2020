@@ -5,13 +5,13 @@ renderFormContentOn: aCanvas
 		columns: 80;
 		rows: 1.
 	aCanvas break.
-	aCanvas text: 'Topico:'.
-	(aCanvas textArea on: #topico of: self)
+	aCanvas text: 'Topicos:'.
+	(aCanvas textArea on: #topicos of: self)
 		columns: 80;
 		rows: 1.
 	aCanvas break.
 	aCanvas text: 'Descripcion:'.
-		aCanvas break.
+	aCanvas break.
 	(aCanvas textArea on: #descripcion of: self)
 		columns: 80;
 		rows: 5.
