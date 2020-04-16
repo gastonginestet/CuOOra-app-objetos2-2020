@@ -1,5 +1,4 @@
-as yet unclassified
+accessing
 relacionarTopico: aTopico
-^ aTopico collect: [ :topic | topicos add: topic ].
-
-	
+topicos add: aTopico.
+^ topicos last.

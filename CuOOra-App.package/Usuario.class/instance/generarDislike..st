@@ -1,3 +1,3 @@
-accessing
+as yet unclassified
 generarDislike: aPost
-	^ aPost crearDislikeUsuario: self
+^ aPost crearDislikeUsuario: self.

@@ -1,7 +1,3 @@
-accessing
+as yet unclassified
 buscarTopico: aName
-		"Dado el nombre del topico retorna el objeto de la coleccion"
-
-	^ self topicos
-		detect: [ :topico | topico nombre  = aName ]
-		ifNone: nil
+^ topicos detect: [ :topic | topic nombre match: aName ] ifNone:[nil].

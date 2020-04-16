@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "TestCase",
-	"category" : "CuOOra-App-Tests",
+	"category" : "CuOOra-App-Tests-modelTests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

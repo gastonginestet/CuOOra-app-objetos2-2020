@@ -1,5 +1,4 @@
-add/remove
+as yet unclassified
 agregarRespuesta: aPregunta texto: aTitulo autor: aUsuario
 	^ (self buscarPregunta: aPregunta)
-		agregarRespuesta: aTitulo
-		autor: aUsuario
+		crearRespuestaTexto: aTitulo autor: aUsuario

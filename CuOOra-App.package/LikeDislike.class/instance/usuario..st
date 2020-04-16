@@ -1,3 +1,3 @@
 accessing
 usuario: aUsuario
-usuario := aUsuario 
+usuario:= aUsuario.

@@ -1,3 +1,3 @@
 accessing
-texto:aString
-texto := aString 
+texto: anObject
+	texto := anObject

@@ -1,3 +1,3 @@
-accessing
+as yet unclassified
 obtenerPreguntasSeguidos
-	^ self siguiendo flatCollect: [ :user | user preguntas ]
+^ siguiendo flatCollect: [ : user | user preguntas ]

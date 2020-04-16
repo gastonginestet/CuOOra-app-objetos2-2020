@@ -1,4 +1,5 @@
-as yet unclassified
+accessing
 obtenerTopico: aTopico
-	self topicos detect: [ :topic | topic == aTopico ] ifFound: [ ^ self ].
-	^ nil
+topicos detect: [ : topic | topic == aTopico ]
+ifFound: [ ^ self ].
+^ nil.

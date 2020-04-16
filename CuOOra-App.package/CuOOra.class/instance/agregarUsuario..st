@@ -1,4 +1,4 @@
-creation
-agregarUsuario: aUsuario
-usuarios add: aUsuario.
-^ usuarios last.
+as yet unclassified
+agregarUsuario: aUser
+	usuarios add: aUser.
+	^ usuarios last

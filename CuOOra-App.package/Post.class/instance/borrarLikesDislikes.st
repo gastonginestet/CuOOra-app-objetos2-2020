@@ -1,5 +1,5 @@
-deleting
+as yet unclassified
 borrarLikesDislikes
-	likes removeAll.
-	dislikes removeAll.
-	^ true
+likes removeAll.
+dislikes removeAll.
+^ true.

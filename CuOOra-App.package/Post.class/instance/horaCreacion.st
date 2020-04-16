@@ -1,3 +1,3 @@
 accessing
-horaCreacion
-	^ horaCreacion print24.
+horaCreacion 
+^ horaCreacion print24 

@@ -1,3 +1,3 @@
-initialization
+accessing
 descripcion
-	^descripcion
+	^ descripcion

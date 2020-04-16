@@ -1,4 +1,4 @@
 adding
 agregarLike: aLike
-	likes add: aLike.
-	^ likes last
+likes add: aLike.
+^ likes last.

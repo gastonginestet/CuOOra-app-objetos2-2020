@@ -1,4 +1,3 @@
-accessing
+as yet unclassified
 obtenerRespuestas: colPreguntas
-	^ colPreguntas
-		select: [ :preg | preg obtenerRespuestaPorUsuario: self ]
+^ colPreguntas select: [ : preg | preg obtenerRespuestaPorUsuario: self ]

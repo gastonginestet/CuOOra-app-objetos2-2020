@@ -1,6 +1,6 @@
-add/remove
+deleting
 borrarPregunta: aPregunta
 	aPregunta respuestas isEmpty
 		ifFalse: [ aPregunta borrarRespuestas ].
 	aPregunta borrarLikesDislikes.
-	^ self preguntas remove: aPregunta
+	^ preguntas remove: aPregunta

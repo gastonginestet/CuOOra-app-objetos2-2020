@@ -1,14 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "TestPost",
-	"category" : "CuOOra-App-Tests",
+	"super" : "TestCase",
+	"category" : "CuOOra-App-Tests-modelTests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"respA",
-		"respB",
-		"sistema"
+		"sistema",
+		"userDiego"
 	],
 	"name" : "TestRespuesta",
 	"type" : "normal"

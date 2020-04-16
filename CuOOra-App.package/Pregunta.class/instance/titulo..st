@@ -1,3 +1,3 @@
-initialization
-titulo:aString
-titulo := aString
+accessing
+titulo: anObject
+	titulo := anObject

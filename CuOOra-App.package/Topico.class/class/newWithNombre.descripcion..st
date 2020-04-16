@@ -1,5 +1,3 @@
-instance creation
-newWithNombre: aString descripcion: aString2
-	^ self new
-		nombre: aString;
-		descripcion: aString2
+creation
+newWithNombre: aNombre descripcion: aDescripcion 
+^ (self new) nuevoTopico: aNombre descripcion: aDescripcion.

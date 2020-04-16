@@ -6,8 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"texto",
-		"autor"
+		"texto"
 	],
 	"name" : "Respuesta",
 	"type" : "normal"

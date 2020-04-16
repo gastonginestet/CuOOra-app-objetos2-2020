@@ -1,3 +1,3 @@
-initialization
-descripcion:aString
-descripcion := aString 
+accessing
+descripcion: anObject
+	descripcion := anObject

@@ -1,6 +1,6 @@
 add/remove
-follow: aUsuario
-	(self estaSiguiendo: aUsuario)
+follow: aUserFinal
+	(self estaSiguiendo: aUserFinal)
 		ifTrue: [ ^ self ].
-	self siguiendo add: aUsuario.
-	aUsuario agregarSeguidor: self
+	siguiendo add: aUserFinal.
+	^ aUserFinal agregarSeguidor: self

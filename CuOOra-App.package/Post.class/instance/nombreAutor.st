@@ -1,3 +1,3 @@
-accessing
+as yet unclassified
 nombreAutor
-	^ autor nombreUsuario
+^ autor nombreUsuario.

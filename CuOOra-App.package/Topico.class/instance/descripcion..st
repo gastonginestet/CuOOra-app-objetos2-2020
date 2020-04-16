@@ -1,3 +1,3 @@
 accessing
-descripcion:aString
-descripcion :=aString 
+descripcion: anObject
+	descripcion := anObject

@@ -1,4 +1,4 @@
-creation
-agregarRespuesta: aRespuesta
-	respuestas add: aRespuesta.
-	^ respuestas last
+as yet unclassified
+agregarRespuesta: aResp 
+	respuestas add: aResp.
+^ respuestas last.

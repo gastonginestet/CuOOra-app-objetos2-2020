@@ -2,9 +2,7 @@
 	"commentStamp" : "",
 	"super" : "Object",
 	"category" : "CuOOra-App-model",
-	"classinstvars" : [
-		"soleInstance"
-	],
+	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [

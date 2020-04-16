@@ -1,3 +1,3 @@
-accessing
+as yet unclassified
 cantSeguidores
-^seguidores size.
+^ seguidores size.

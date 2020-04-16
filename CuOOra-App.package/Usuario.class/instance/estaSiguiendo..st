@@ -1,3 +1,3 @@
 tests - includes
-estaSiguiendo: aUser
-	^ self siguiendo includes: aUser
+estaSiguiendo: aUser 
+^ siguiendo includes: aUser

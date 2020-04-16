@@ -1,4 +1,3 @@
-creation
+as yet unclassified
 crearRespuestaTexto: aString autor: aAutor
-	^ self
-		agregarRespuesta: (Respuesta newWithAutor: aAutor texto: aString)
+^ self agregarRespuesta: (Respuesta newWithTexto: aString  autor:aAutor ).

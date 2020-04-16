@@ -1,3 +1,3 @@
-accessing
+as yet unclassified
 generarLike: aPost
-	^ aPost crearLikeUsuario: self
+^ aPost crearLikeUsuario: self.

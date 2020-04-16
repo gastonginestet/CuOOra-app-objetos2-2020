@@ -1,3 +1,3 @@
-accessing
-tieneTopicoFavorito: aTopico
-	^ topicosFavoritos anySatisfy: [ :topicFav | topicFav = aTopico ]
+as yet unclassified
+tieneTopicoFavorito: aTopico 
+^ topicosFavoritos anySatisfy: [ :topicFav | topicFav  = aTopico]

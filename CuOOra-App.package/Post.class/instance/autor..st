@@ -1,3 +1,3 @@
 accessing
-autor: aAutor
-autor := aAutor
+autor: anObject
+	autor := anObject

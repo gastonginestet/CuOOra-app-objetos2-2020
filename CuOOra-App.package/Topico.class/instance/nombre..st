@@ -1,3 +1,3 @@
 accessing
-nombre: aString
-nombre:=aString.
+nombre: anObject
+	nombre := anObject
