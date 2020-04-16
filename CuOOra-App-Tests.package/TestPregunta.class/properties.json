@@ -8,9 +8,9 @@
 	"instvars" : [
 		"topicA",
 		"topicB",
-		"pregA",
-		"respADiego",
-		"respBDiego",
+		"pregPedro",
+		"respDiego",
+		"respPedro",
 		"userDiego",
 		"userPedro",
 		"sistema"

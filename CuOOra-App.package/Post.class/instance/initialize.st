@@ -1,6 +1,6 @@
 initialization
 initialize
 fechaCreacion := Date today.
-horaCreacion := Time now.
+horaCreacion:= Time now.
 likes:=OrderedCollection new.
 dislikes := OrderedCollection new.
