@@ -1,5 +1,6 @@
 private-creation
-initialize
+nuevoLikeDislike: aUsuario
+	usuario := aUsuario.
 	fechaCreacion := Date today.
 	horaCreacion := Time now.
-	
+	^self.
