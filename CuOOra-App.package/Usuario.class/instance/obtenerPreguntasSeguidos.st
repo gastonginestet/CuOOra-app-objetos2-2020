@@ -1,3 +1,3 @@
-as yet unclassified
+accessing - private
 obtenerPreguntasSeguidos
 ^ siguiendo flatCollect: [ : user | user preguntas ]

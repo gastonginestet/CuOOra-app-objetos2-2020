@@ -1,4 +1,4 @@
-as yet unclassified
+deleting
 borrarLikesDislikes
 likes removeAll.
 dislikes removeAll.

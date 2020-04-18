@@ -1,5 +1,6 @@
 running
 setUp
+|colAux|
 	super setUp.
 	sistema:= CuOOra new.
 	userMartin:= sistema
@@ -12,7 +13,8 @@ setUp
 		crearNuevoUsuario: 'pedro@cuoora.com'
 		password: 'pedro@cuoora.com'.
 	topicA := sistema crearTopicoNombre: 'OO1' descripcion: '001'.
-	pregA := userPedro
+	topicB := sistema crearTopicoNombre: 'OO2' descripcion: '001'.
+	(pregA := userPedro
 		agregarPregunta: '¿Para qué sirve el método SetUp?'
 		descripcion: '¿Para qué sirve el método SetUp?'
-		topico: topicA.
+		topico: topicA).

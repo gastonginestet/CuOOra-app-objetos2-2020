@@ -1,3 +1,3 @@
-as yet unclassified
+search
 obtenerRespuestas: colPreguntas
-^ colPreguntas select: [ : preg | preg obtenerRespuestaPorUsuario: self ]
+^ colPreguntas flatCollect: [ : preg | preg obtenerRespuestaPorUsuario: self ]

@@ -1,4 +1,4 @@
-as yet unclassified
+private-creation
 nuevoUsuario: aNombre password: aPassword
 nombreUsuario:= aNombre.
 password:= aPassword.

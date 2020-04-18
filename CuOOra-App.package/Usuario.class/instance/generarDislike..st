@@ -1,3 +1,3 @@
-as yet unclassified
+creating
 generarDislike: aPost
 ^ aPost crearDislikeUsuario: self.

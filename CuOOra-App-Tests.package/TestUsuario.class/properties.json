@@ -11,7 +11,8 @@
 		"userMartin",
 		"userPedro",
 		"topicA",
-		"pregA"
+		"pregA",
+		"topicB"
 	],
 	"name" : "TestUsuario",
 	"type" : "normal"

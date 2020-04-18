@@ -1,4 +1,4 @@
-accessing
+private-creation
 nuevaPregunta: aTitulo descripcion: aDescripcion topico: aTopico autor: aUser
 self initialize.
 autor:= aUser.
