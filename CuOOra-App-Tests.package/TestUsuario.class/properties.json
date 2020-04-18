@@ -7,6 +7,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"sistema",
+		"userDiego",
+		"userMartin",
 		"userPedro",
 		"topicA",
 		"pregA"

@@ -5,7 +5,13 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"sistema",
+		"userDiego",
+		"userPedro",
+		"pregA",
+		"respA"
+	],
 	"name" : "TestPost",
 	"type" : "normal"
 }
