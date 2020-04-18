@@ -1,6 +1,8 @@
 creation
 crearDislikeUsuario: aUsuario
 "Crea un Like de un usuario determinado pero antes debe verificar si dicho usuario no genero un dislike antes"
-( self hayUnLike: aUsuario )
-ifTrue: [ self borrarLike: aUsuario ].
-^ self agregarDislike: (LikeDislike  newWithUsuario: aUsuario)
+|ld|
+ld:= self hayUnLike: aUsuario.
+ld
+ifNotNil: [ self borrarLike: ld ].
+^ self agregarDislike: (LikeDislike newWithUsuario: aUsuario).

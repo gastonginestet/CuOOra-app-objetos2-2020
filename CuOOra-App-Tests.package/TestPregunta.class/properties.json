@@ -10,9 +10,12 @@
 		"topicB",
 		"pregPedro",
 		"respDiego",
+		"respDie1",
+		"respDie2",
 		"respPedro",
 		"userDiego",
 		"userPedro",
+		"userMartin",
 		"sistema"
 	],
 	"name" : "TestPregunta",

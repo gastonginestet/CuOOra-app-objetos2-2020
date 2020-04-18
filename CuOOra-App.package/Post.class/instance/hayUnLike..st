@@ -1,5 +1,4 @@
 searching
 hayUnLike: aUsuario
-	^ likes anySatisfy: [ :l | l usuario = aUsuario  ]
-	"Retorna True en caso de que haya algun Like del Usuario"
-	"Retorna False en caso de que no haya algun Like del Usuario"
+^ likes detect: [ :l | l usuario nombreUsuario == (aUsuario nombreUsuario ) ] ifNone: [ nil ]
+"	^ self likes detect: [ :l | l usuario == aUsuario  ]	ifNone: [ nil ]"
