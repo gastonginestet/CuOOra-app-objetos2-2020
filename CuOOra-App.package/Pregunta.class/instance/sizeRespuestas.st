@@ -1,3 +1,0 @@
-accessing
-sizeRespuestas
-	^ respuestas size
