@@ -4,4 +4,4 @@ testNuevoLikeDislike
 likedis:= LikeDislike newWithUsuario: userDiego.
 self assert: likedis usuario equals: userDiego.
 self assert: likedis fechaCreacion equals: Date today.
-self assert: likedis horaCreacion equals: Time now.
+self assert: likedis horaCreacion equals: Time now

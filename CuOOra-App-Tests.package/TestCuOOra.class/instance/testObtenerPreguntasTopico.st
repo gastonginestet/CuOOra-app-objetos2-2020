@@ -8,5 +8,5 @@ pregB:= (userDiego agregarPregunta: 'Preg1' descripcion: 'Preg1' topico: topicA 
 pregC:= (userDiego agregarPregunta: 'Preg1' descripcion: 'Preg1' topico: topicB ).
 self assert: ((sistema obtenerPreguntasTopico: topicA) includes: pregB).
 
-self assert: (sistema obtenerPreguntasTopico: topicA) size equals: 2.
+self assert: (sistema obtenerPreguntasTopico: topicA) size equals: 2
 
