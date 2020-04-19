@@ -1,8 +1,6 @@
 running
 setUp
-|topicCol|
 	super setUp.
-	topicCol:= OrderedCollection new.
 	sistema := CuOOra new.
 	"Usuarios"
 	userDiego := sistema
@@ -22,7 +20,3 @@ setUp
 	topicC := sistema
 		crearTopicoNombre: 'Smalltalk'
 		descripcion: 'Smalltalk'.
-	topicCol add: topicA; add: topicB.
-	"Preguntas"
-	pregA:= userPedro agregarPregunta: '¿Para qué sirve el método SetUp?' descripcion: '¿Para qué sirve el método SetUp?'  topico: topicCol.
-	"respA:= userDiego agregarRespuesta: pregA texto: 'Sirve para instanciar los objetos que son evaluados por el test en un único método y que se ejecute siempre antes de cada test.' autor: self."
