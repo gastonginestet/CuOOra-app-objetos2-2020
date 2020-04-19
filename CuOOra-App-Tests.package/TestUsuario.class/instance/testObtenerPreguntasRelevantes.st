@@ -1,21 +1,22 @@
 tests
 testObtenerPreguntasRelevantes
-|pregFollow  setAux topicCol|
-topicCol:= OrderedCollection new.
+|pregFollow colPreg setAux nueTop|
+"Topicos en colAux"
+colPreg:= OrderedCollection new.
 setAux:= Set new.
-
-topicCol add: topicA; add: topicB.
-colAux add: (userMartin agregarPregunta: 'Mi topico' descripcion: 'Mi topico' topico: topicCol).
-topicCol remove: topicB.
-colAux add: (userMartin agregarPregunta: 'Mi topic' descripcion: 'Mi topico' topico: topicCol).
-self assert: (userDiego obtenerPreguntasRelevantes: colAux) isEmpty .
+colPreg add: (userMartin agregarPregunta: 'Mi topico' descripcion: 'Mi topico' topico: colAux).
+colPreg add: (userMartin agregarPregunta: 'Mi topic' descripcion: 'Mi topico' topico: colAux).
+self deny: (userDiego obtenerPreguntasRelevantes: colPreg) isEmpty .
 "Follow un Topico"
-"userDiego agregarTopicoFavorito: topicA.
-setAux := colAux asSet.
-self assert: (userDiego obtenerPreguntasRelevantes: colAux) equals: setAux.
-
+userDiego agregarTopicoFavorito: colAux.
+setAux := colPreg asSet.
+self assert: (userDiego obtenerPreguntasRelevantes: colPreg) equals: setAux.
+"Nuevo Topico"
+nueTop:= (sistema crearTopicoNombre: 'abc' descripcion: 'abc').
+colAux add: nueTop.
+"Follow User"
 userDiego follow: userPedro.
 pregFollow:= (userPedro agregarPregunta: 'Pregunta Follow' descripcion: 'abc' topico: 'a'). 
-colAux add: pregFollow.
-self assert: ((userDiego obtenerPreguntasRelevantes: colAux) includes: pregFollow) ."
+colPreg add: pregFollow.
+self assert: ((userDiego obtenerPreguntasRelevantes: colPreg) includes: pregFollow) .
 

@@ -1,8 +1,8 @@
 tests
 testObtenerRespuestasUsuario
 |preg1 preg2 preA preB|
-preg1:= userPedro agregarPregunta: 'Prueba1' descripcion: 'Prueba2' topico: topicA.
-preg2:= userJuan agregarPregunta: 'Prueba2' descripcion: 'Prueba2' topico: topicA.
+preg1:= userPedro agregarPregunta: 'Prueba1' descripcion: 'Prueba2' topico: colTop.
+preg2:= userJuan agregarPregunta: 'Prueba2' descripcion: 'Prueba2' topico: colTop.
 self assert: (sistema obtenerRespuestasUsuario: userDiego) isEmpty.
 (preg1 crearRespuestaTexto: 'resp1' autor: userDiego).
 preA:= (preg1 crearRespuestaTexto: 'resp2' autor: userDiego).

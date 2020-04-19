@@ -13,10 +13,5 @@ setUp
 		crearNuevoUsuario: 'pedro@cuoora.com'
 		password: 'pedro@cuoora.com'.
 	"Topicos"
-	topicA := sistema crearTopicoNombre: 'OO1' descripcion: '001'.
-	topicB := sistema
-		crearTopicoNombre: 'Test de Unidad'
-		descripcion: 'Test de Unidad'.
-	topicC := sistema
-		crearTopicoNombre: 'Smalltalk'
-		descripcion: 'Smalltalk'.
+	colTop:= OrderedCollection new.
+	colTop add: (topicA := sistema crearTopicoNombre: 'OO1' descripcion: '001'); add: (topicB := sistema crearTopicoNombre: 'Test de Unidad' descripcion: 'Test de Unidad'); add: (topicC := sistema crearTopicoNombre: 'Smalltalk'	descripcion: 'Smalltalk').

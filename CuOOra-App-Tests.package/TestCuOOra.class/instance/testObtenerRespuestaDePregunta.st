@@ -1,7 +1,7 @@
 tests
 testObtenerRespuestaDePregunta
 |preg1 preA |
-preg1:= userPedro agregarPregunta: 'Prueba1' descripcion: 'Prueba2' topico: topicA.
+preg1:= userPedro agregarPregunta: 'Prueba1' descripcion: 'Prueba2' topico: colTop.
 self assert: (sistema obtenerRespuestaDePregunta: preg1) isEmpty.
 (preg1 crearRespuestaTexto: 'resp1' autor: userDiego).
 preA:= (preg1 crearRespuestaTexto: 'resp2' autor: userDiego).

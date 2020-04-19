@@ -1,3 +1,3 @@
 accessing - private
 preguntasDeMisTopicos: aPreguntas
-^ aPreguntas select: [ : preg | preg topicos contains: topicosFavoritos]
+^ aPreguntas select: [ : quest | (quest obtenerPreguntaPorTopico: (self topicosFavoritos)) isNotNil  ].

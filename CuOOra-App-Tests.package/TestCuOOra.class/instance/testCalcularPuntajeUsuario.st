@@ -4,9 +4,9 @@ testCalcularPuntajeUsuario
 "Preg = 20pts"
 self assert: (sistema calcularPuntajeUsuario: userDiego) equals: 0.
 "Agrego pregunta"
-pregA:= (userDiego agregarPregunta: 'Preg1' descripcion: 'Preg1' topico: topicA).
+pregA:= (userDiego agregarPregunta: 'Preg1' descripcion: 'Preg1' topico: colTop).
 self assert: (sistema calcularPuntajeUsuario: userDiego) equals: 20.
-(userDiego agregarPregunta: 'Preg2' descripcion: 'Preg1' topico: topicA).
+(userDiego agregarPregunta: 'Preg2' descripcion: 'Preg1' topico: colTop).
 self assert: (sistema calcularPuntajeUsuario: userDiego) equals: 40.
 "Agrego 2 likes y 1 dislike, 40 + 1 = 41"
 userDiego generarLike: pregA.
