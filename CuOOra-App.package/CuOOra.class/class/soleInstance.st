@@ -1,3 +1,6 @@
 accessing
 soleInstance
-	^ soleInstance ifNil: [ soleInstance := self new ]
+|loadSample|
+loadSample:= CuOOraSampleLoader new.
+^ soleInstance ifNil: [loadSample loadExampleCuOOra: (soleInstance := self new )]
+"	^ soleInstance ifNil: [ soleInstance :=  self new]"

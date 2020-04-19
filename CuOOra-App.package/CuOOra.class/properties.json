@@ -9,15 +9,7 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"usuarios",
-		"topicos",
-		"userPedro",
-		"userDiego",
-		"userJuan",
-		"topicA",
-		"topicB",
-		"topicC",
-		"pregPedro",
-		"pregDiego"
+		"topicos"
 	],
 	"name" : "CuOOra",
 	"type" : "normal"

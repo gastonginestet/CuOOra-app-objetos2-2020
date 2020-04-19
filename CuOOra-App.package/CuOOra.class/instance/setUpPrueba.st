@@ -1,8 +1,9 @@
 initialization
-setUp 
-userPedro:= self crearNuevoUsuario: 'pedro@cuoora.com' password: 'pedro@cuoora.com'.
-userDiego:= self crearNuevoUsuario: 'diego@cuoora.com' password: 'diego@cuoora.com'.
-userJuan:= self crearNuevoUsuario: 'juan@cuoora.com' password: 'juan@cuoora.com'.
+setUpPrueba
+|userPedro userDiego userJuan topicA topicB topicC pregPedro pregDiego|
+self crearNuevoUsuario: 'pedro@cuoora.com' password: 'pedro@cuoora.com'.
+self crearNuevoUsuario: 'diego@cuoora.com' password: 'diego@cuoora.com'.
+self crearNuevoUsuario: 'juan@cuoora.com' password: 'juan@cuoora.com'.
 topicA:= self crearTopicoNombre: 'OO1' descripcion: 'oo1'.
 topicB:= self crearTopicoNombre: 'Test de Unidad' descripcion: 'test'.
 topicC:= self crearTopicoNombre: 'Smalltalk' descripcion: 'Small'.
