@@ -1,10 +1,10 @@
 private-creation
-nuevaPregunta: aTitulo descripcion: aDescripcion topico: aTopico autor: aUser
+nuevaPregunta: aTitulo descripcion: aDescripcion topico: aTopicCol autor: aUser
 self initialize.
 autor:= aUser.
 titulo:= aTitulo.
 descripcion:= aDescripcion.
 respuestas:= OrderedCollection new.
 topicos:= OrderedCollection new.
-self relacionarTopico: aTopico.
+self relacionarTopicos: aTopicCol.
 ^ self.

@@ -1,8 +1,13 @@
 tests
 testObtenerTopico
-|pregAux |
-pregAux:= userDiego agregarPregunta: 'Funciona?' descripcion: 'Prueba' topico: topicA.
-(userDiego agregarPregunta: 'Funciona?' descripcion: 'Prueba' topico: topicA).
-(userDiego agregarPregunta: 'Funcio' descripcion: 'Prueba' topico: topicB).
-(userDiego agregarPregunta: 'Funcion' descripcion: 'Prueba' topico: topicA).
+|pregAux topicCol|
+topicCol:= OrderedCollection new.
+topicCol add: topicA; add: topicB.
+pregAux:= userDiego agregarPregunta: 'Funciona?' descripcion: 'Prueba' topico: topicCol.
+topicCol removeLast .
+(userDiego agregarPregunta: 'Funciona?' descripcion: 'Prueba' topico: topicCol).
+topicCol removeLast; add: topicB.
+(userDiego agregarPregunta: 'Funcio' descripcion: 'Prueba' topico: topicCol).
+topicCol add: topicA.
+(userDiego agregarPregunta: 'Funcion' descripcion: 'Prueba' topico: topicCol).
 self assert: (pregAux obtenerTopico: topicA) equals:  pregAux.

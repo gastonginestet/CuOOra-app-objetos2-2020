@@ -12,7 +12,8 @@
 		"userPedro",
 		"topicA",
 		"pregA",
-		"topicB"
+		"topicB",
+		"colAux"
 	],
 	"name" : "TestUsuario",
 	"type" : "normal"

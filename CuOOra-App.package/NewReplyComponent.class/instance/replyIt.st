@@ -1,5 +1,6 @@
 initialization
 replyIt
-	self post
+	self post crearRespuestaTexto: self texto autor: (self session user). self answer.
+"	self post
 		crearRespuestaTexto: self texto
-		autor: self session user nombreUsuario.self answer 
+		autor: (self session user) nombreUsuario.self answer "

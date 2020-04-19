@@ -1,5 +1,6 @@
 running
 setUp
+|colAux|
 	super setUp.
 	sistema := CuOOra new.
 	userDiego := sistema
@@ -8,5 +9,6 @@ setUp
 	userPedro := sistema
 		crearNuevoUsuario: 'pedro@cuoora.com'
 		password: 'pedro@cuoora.com'.
-		topicA := sistema crearTopicoNombre: 'OO1' descripcion: '001'.
-		pregA:= userPedro agregarPregunta: '¿Para qué sirve el método SetUp?' descripcion: '¿Para qué sirve el método SetUp?'  topico: topicA.
+		colAux:= OrderedCollection new.
+colAux add: (topicA := sistema crearTopicoNombre: 'OO1' descripcion: '001'); add: (topicB := sistema crearTopicoNombre: 'OO3' descripcion: '003').
+pregA:= userPedro agregarPregunta: '¿Para qué sirve el método SetUp?' descripcion: '¿Para qué sirve el método SetUp?'  topico: colAux.

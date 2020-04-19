@@ -4,5 +4,4 @@ renderPostTopicosOn: aCanvas element: question
 
 	question topicos
 		ifNil: [ aCanvas text: 'No hay topicos.' ]
-		ifNotNil: [ question topicos
-				do: [ :topico | aCanvas text: ' | ' , topico nombre ,' | '] ]
+		ifNotNil: [ question topicos do: [ :topico | aCanvas text: ' | ' , topico nombre ,' | '] ]

@@ -26,6 +26,6 @@ self assert: respA dislikes size equals: 1.
 self deny: (respA dislikes includes: dislikePrueba).
 "Creacion"
 self assert: dislikePrueba fechaCreacion equals: Date today.
-self assert: dislikePrueba horaCreacion equals: Time now.
+self assert: dislikePrueba horaCreacion equals: (Time now)hhmm24.
 self assert: dislikePrueba usuario equals: userDiego.
 self deny: dislikePrueba usuario equals: userPedro.

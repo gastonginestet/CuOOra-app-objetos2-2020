@@ -1,8 +1,12 @@
 tests
 testObtenerRespuestas
-|colAux prue respPrue|
+| prue respPrue|
 colAux:= OrderedCollection new.
 respPrue:= OrderedCollection new.
+pregA := userPedro
+		agregarPregunta: '¿Para qué sirve el método SetUp?'
+		descripcion: '¿Para qué sirve el método SetUp?'
+		topico: colAux.
 colAux add: pregA.
 colAux add: (userDiego agregarPregunta: 'Prueba3' descripcion: 'Prueba2' topico: 'abc').
 prue:= (userDiego agregarPregunta: 'Prueba2' descripcion: 'Prueba2' topico: 'abc').

@@ -14,7 +14,7 @@ renderPostContentOn: aCanvas element: each
 		with: [ aCanvas strong: each nombreAutor ].
 	aCanvas
 		text: ' | ';
-		text: each sizeRespuestas;
+		text: each respuestas size ;
 		text: ' respuestas'.
 	aCanvas break.
 	self renderLikesDislikesOn: aCanvas with: each.

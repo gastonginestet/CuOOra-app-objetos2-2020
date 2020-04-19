@@ -7,4 +7,4 @@ aux remove: nil ifAbsent: [  ].
 ^ aux"
 
 "FUNCIONA"
-^ preguntas collect: [ : quest | quest obtenerTopico: aTopico ].
+^ preguntas select: [ : quest | (quest obtenerTopico: aTopico) isNotNil ].

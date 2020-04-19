@@ -26,6 +26,6 @@ self assert: respA likes size equals: 1.
 self deny: (respA likes includes: likePrueba).
 "Creacion"
 self assert: likePrueba fechaCreacion equals: Date today.
-self assert: likePrueba horaCreacion equals: Time now.
+self assert: likePrueba horaCreacion equals: (Time now)hhmm24.
 self assert: likePrueba usuario equals: userDiego.
 self deny: likePrueba usuario equals: userPedro.
