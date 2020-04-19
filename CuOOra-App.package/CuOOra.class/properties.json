@@ -2,14 +2,20 @@
 	"commentStamp" : "",
 	"super" : "Object",
 	"category" : "CuOOra-App-model",
-	"classinstvars" : [
-		"soleInstance"
-	],
+	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"usuarios",
-		"topicos"
+		"topicos",
+		"userPedro",
+		"userDiego",
+		"userJuan",
+		"topicA",
+		"topicB",
+		"topicC",
+		"pregPedro",
+		"pregDiego"
 	],
 	"name" : "CuOOra",
 	"type" : "normal"

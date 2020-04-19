@@ -1,3 +1,3 @@
-as yet unclassified
+accesing
 cantDislikes
-	^self  dislikes size
+^ dislikes size.

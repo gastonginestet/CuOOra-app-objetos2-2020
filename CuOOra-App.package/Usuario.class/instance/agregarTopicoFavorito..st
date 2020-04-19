@@ -1,4 +1,4 @@
-add/remove
+accessing - private
 agregarTopicoFavorito: aTopico
 	topicosFavoritos add: aTopico.
 	^ topicosFavoritos last

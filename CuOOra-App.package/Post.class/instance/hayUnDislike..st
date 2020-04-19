@@ -1,6 +1,4 @@
 searching
 hayUnDislike: aUsuario
-	^ self dislikes
-		detect:
-			[ :disl | disl usuario = aUsuario ]
-		ifNone: [ nil ]
+^ dislikes detect: [ :disl | disl usuario nombreUsuario == (aUsuario nombreUsuario ) ] ifNone: [ nil ]
+"	^ self dislikes detect: [ :disl | disl usuario  == aUsuario ] ifNone: [ nil ]"

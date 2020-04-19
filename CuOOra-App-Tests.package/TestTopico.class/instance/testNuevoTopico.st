@@ -1,7 +1,6 @@
 tests
 testNuevoTopico
-	| topic |
-	topic := Topico newWithNombre:'Smalltalk' descripcion:'Preguntas sobre Smalltalk' .
-
-	self assert: topic nombre equals: 'Smalltalk'.
-	self deny: topic descripcion equals: ''
+|topic|
+topic:= Topico newWithNombre: 'OO1' descripcion: 'Objetos 1'.
+self assert: topic nombre equals: 'OO1'.
+self deny: topic descripcion equals: 'Objetos1'.

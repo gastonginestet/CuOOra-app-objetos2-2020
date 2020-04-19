@@ -1,4 +1,4 @@
-add/remove
+creating
 follow: aUserFinal
 	(self estaSiguiendo: aUserFinal)
 		ifTrue: [ ^ self ].

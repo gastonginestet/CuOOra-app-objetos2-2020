@@ -1,3 +1,3 @@
-as yet unclassified
+accessing - private
 calcularPreguntas: aPregCol
 ^ aPregCol sumNumbers: [ : preg | preg calcularPuntaje ].

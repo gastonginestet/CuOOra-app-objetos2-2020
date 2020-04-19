@@ -1,8 +1,8 @@
 tests
 testNuevaPregunta
-	| nuePreg |
-	nuePreg := Pregunta newWithTitulo:'¿Para qué sirve el método SetUp?'  descripcion:'¿Para qué sirve el método SetUp?'  topicos: 'Smalltalk' autor:userDiego.
-
-	self
-		assert: nuePreg descripcion
-		equals: '¿Para qué sirve el método SetUp?'
+|nuePreg|
+nuePreg := Pregunta newWithTitulo: 'Prueba123' descripcion: 'prueba123' topico: topicA autor: userDiego.
+self assert: nuePreg fechaCreacion equals: Date today.
+self assert: nuePreg horaCreacion equals: Time now.
+self assert: nuePreg autor equals: userDiego.
+self deny: nuePreg autor equals: userPedro.
